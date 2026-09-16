@@ -18,7 +18,7 @@ Bear Agent 是一个基于 Python 实现的 **自进化 Harness Agent**。它不
 
 ## 项目架构
 
-![Bear Agent 总体架构](wiki/assets/architecture/01-overall-architecture.svg)
+![BearCode 总体架构](wiki/assets/architecture/bearcode-architecture-editorial.png)
 
 核心运行链路：
 
