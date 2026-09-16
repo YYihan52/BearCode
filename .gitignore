@@ -138,6 +138,7 @@ celerybeat.pid
 .env
 .envrc
 .venv
+.venv-win/
 env/
 venv/
 ENV/
@@ -196,6 +197,30 @@ cython_debug/
 .tasks/
 .teams/
 .bear/skill-evolution/
+
+# Local agent state and personal skills
+.bear/
+.runtime-home/
+.playwright-mcp/
+
+# Local editor and OS metadata
+.idea/
+.DS_Store
+**/.DS_Store
+
+# Large evaluation datasets and reference papers
+data/
+paper/
+
+# Internal career and evaluation notes
+/why-bearcode.md
+/为什么还要做BearCode.md
+/面经.md
+/面试.md
+/面试问题逐字稿.md
+/在线Skills评测实现说明.md
+/wiki/简历包装.md
+/wiki/评测部分.md
 
 # Ruff stuff:
 .ruff_cache/
